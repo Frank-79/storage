@@ -1,0 +1,81 @@
+
+body{
+    height: 100vh;
+    background-image: url('images/bg-desktop.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.one{    
+    background-color: rgb(20, 1, 131);
+    height: 120px;
+    width: 220px;
+    border-top-right-radius: 80px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.two{
+    background-color: rgb(20, 1, 131);
+    height: 120px;
+    width: 400px;
+    margin-left: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p{
+color: #fff;
+margin-right: 90px;
+margin-top: -50px;
+}
+.bar1{
+background-color: rgb(5, 0, 82);
+width: 350px;
+height: 12px;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+}
+.bar2{
+    background-color: rgb(255, 28, 225);
+width: 290px;
+height: 8px;
+margin: 2px;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+}
+.bar3{
+    background-color: rgb(255, 255, 255);
+    width: 9px;
+    height: 8px;
+    margin: 2px;
+    margin-left: 280px;
+    justify-content: end;
+    align-items: center;
+    border-radius: 10px;
+}
+.icon{
+    display: inline-flex;
+    background-color: rgb(5, 0, 82);
+    margin-top: 50px;
+    margin-left: 10px;
+    padding:10px;
+    border-radius: 10px;
+}
+.logo{
+    color: #fff;
+    width: 20px;
+    height: 10px;
+}
